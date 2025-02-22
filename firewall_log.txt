@@ -1,0 +1,35 @@
+2025-02-22 18:18:16,874 [INFO] Firewall traffic rate limiter is reset
+2025-02-22 18:18:16,875 [INFO]  BLOCKED : Outbound port 23 is blocked
+2025-02-22 18:18:16,875 [INFO] Firewall traffic rate limiter is reset
+2025-02-22 18:18:16,876 [INFO]  BLOCKED : Outbound port 25 is blocked
+2025-02-22 18:18:16,878 [INFO] Firewall traffic rate limiter is reset
+2025-02-22 18:18:16,878 [INFO] Request to access port 443 is approved
+2025-02-22 18:22:39,817 [INFO] Request to access port 443 is approved
+2025-02-22 18:22:52,698 [INFO] BLOCKED Rate limit exceeded: 6 fragments in the last 5s
+2025-02-22 18:22:58,526 [INFO] Firewall traffic rate limiter is reset
+2025-02-22 18:22:58,527 [INFO]  BLOCKED : Outbound port 23 is blocked
+2025-02-22 18:22:58,527 [INFO] Firewall traffic rate limiter is reset
+2025-02-22 18:22:58,528 [INFO]  BLOCKED : Outbound port 25 is blocked
+2025-02-22 18:22:58,531 [INFO] Firewall traffic rate limiter is reset
+2025-02-22 18:22:58,532 [INFO] Request to access port 443 is approved
+2025-02-22 18:23:49,708 [INFO] Firewall traffic rate limiter is reset
+2025-02-22 18:23:49,709 [INFO]  BLOCKED : Outbound port 23 is blocked
+2025-02-22 18:23:49,709 [INFO] Firewall traffic rate limiter is reset
+2025-02-22 18:23:49,709 [INFO]  BLOCKED : Outbound port 25 is blocked
+2025-02-22 18:23:49,712 [INFO] Firewall traffic rate limiter is reset
+2025-02-22 18:23:49,712 [INFO] Request to access port 443 is approved
+2025-02-22 18:23:54,413 [INFO] BLOCKED Rate limit exceeded: 6 fragments in the last 5s
+2025-02-22 18:23:54,415 [INFO] Firewall traffic rate limiter is reset
+2025-02-22 18:23:54,416 [INFO] Request to access port 8080 is approved
+2025-02-22 18:24:49,625 [INFO] Request to access port 8080 is approved
+2025-02-22 18:25:08,630 [INFO] Request to access port 8080 is approved
+2025-02-22 18:25:41,018 [INFO] Firewall traffic rate limiter is reset
+2025-02-22 18:25:41,019 [INFO]  BLOCKED : Outbound port 23 is blocked
+2025-02-22 18:25:41,020 [INFO] Firewall traffic rate limiter is reset
+2025-02-22 18:25:41,020 [INFO]  BLOCKED : Outbound port 25 is blocked
+2025-02-22 18:25:41,022 [INFO] Firewall traffic rate limiter is reset
+2025-02-22 18:25:41,022 [INFO] Request to access port 443 is approved
+2025-02-22 18:26:30,274 [INFO] Request to access port 8080 is approved
+2025-02-22 18:26:52,870 [INFO] Request to access port 443 is approved
+2025-02-22 21:11:48,637 [INFO] Request to access port 53 is approved
+2025-02-22 22:21:07,912 [INFO] Request to access port 443 is approved
