@@ -51,7 +51,8 @@ Adaptive exfiltration methods and configurable traffic patterns are integrated t
 ### Architecture
 * **Client**: represents the malware software installed on a corprate machine, it attempts to encrypt, fragment the senstive data and send it sends data using multiple protocols (HTTPS, DNS, UDP, SMTP, Telnet and Adaptive exfiltration mode, to try all protocols) based on configurable traffic patterns 
 <br>
-The main objective on the client side is to bypass the firewall and operate stealthily without alarming the Intrusion Detection System (IDS).
+The main objective on the client side is to bypass the firewall and operate stealthily without alarming the Intrusion Detection System (IDS).<br>
+
 * **Server**: Represents the attacker server, Listens on various ports, decrypts incoming data, and reconstructs the fragments to extract the sensitive  infromation
 * **Firewall**: Simulates the company network's firewall. It supports rate limiting, port blocking, and keyword-based inspection, and logs events to firewall_log.txt.
 ### Helper Components 
@@ -61,7 +62,9 @@ The main objective on the client side is to bypass the firewall and operate stea
 2.Using the key to encrypt plaintext with AES-CBC (with PKCS7 padding) and a random IV.<br>
 3.Decrypting the ciphertext back into plaintext.<br>
 4. Splitting the encoded data into fragments for further processing.
-<br>Note: The SMTP Email protocol is treated as an exception because fragmenting data across multiple emails may trigger additional IDS alarms.
+<br>
+Note: The SMTP Email protocol is treated as an exception because fragmenting data across multiple emails may trigger additional IDS alarms.
+
 * **Traffic Pattern Manager**: 
 Provides flexibility by allowing users to customize the rate at which data fragments are sent. Users can choose between three modes:
 1.  Fixed Mode: A consistent delay between transmissions.
